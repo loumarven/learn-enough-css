@@ -8,19 +8,19 @@
         color: red;
       }
       #exec-bio {
-        color: lightgray;
+        background-color: lightgray;
       }
-      #random-id {
-        background-color: orange;
+      .alert {
+        background: red;
+      }
+      #exec-bio.alert {
+        background: red;
       }
       .bio-box {
         border: 1px solid black;
       }
       .bio-box a {
         color: green;
-      }
-      .random-class {
-        background-color: azure;
       }
     </style>
   </head>
@@ -38,16 +38,16 @@
       </li>
     </ul>
     <h2>I'm a div</h2>
-    <div id="exec-bio" class="bio-box random-class">
+    <div id="exec-bio" class="bio-box alert">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box random-class">
+    <div class="bio-box">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box random-class">
+    <div class="bio-box">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box random-class">
+    <div class="bio-box alert">
       <a href="http://example.com/">I'm a link</a>
     </div>
   </body>
