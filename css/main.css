@@ -450,3 +450,13 @@ p {
   height: 6em;
   margin-bottom: 1.5em;
 }
+
+@media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+  .post-aside {
+    display: none;
+  }
+}
