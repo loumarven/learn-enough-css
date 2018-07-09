@@ -495,12 +495,30 @@ p {
     padding: 1em;
   }
   .gallery .gallery-thumbs {
-    flex: 1 1 0;
+    flex: 1;
     height: auto;
     white-space: nowrap;
     width: 100vw;
   }
+  .gallery-thumbs > div {
+    display: inline-block;
+  }
+  .gallery-thumbs img {
+    height: 7vh;
+    margin: 0 10px 0 0;
+    width: auto;
+  }
+  .gallery .gallery-info {
+    flex: 1;
+  }
+
   /* BLOG STYLES */
+  .blog-recent {
+    display: none;
+  }
+  .blog-previews {
+    padding: 0;
+  }
   .post-aside {
     display: none;
   }
